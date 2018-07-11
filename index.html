@@ -9,7 +9,8 @@
 
         <!-- Added a link to Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+        <!-- Link to my CSS -->
+        <link rel="stylesheet" href="assets/css/style.css"
     </head>
     <body>
 
@@ -23,35 +24,24 @@
             <div class="row">
 
             <!-- Calculator Panel -->
-            <div class="col-lg-4">
+            <div class="col-lg-12">
                 <div class="card">
-                <h3 id="startNumber" class="card-header">Calculator</h3>
+                <h2 id="startNumber" class="card-header">Crystal</h2>
+                <h3 id="results">Results</h3>
+                <p class="win">Wins = 0</p>
+                <p class="losses">Losses = 0</p>
 
                 <div class="card-body">
-                    <button id="button-1" class="btn btn-primary number" value="1"><h1>1</h1></button>
-                    <button id="button-2" class="btn btn-primary number" value="2"><h1>2</h1></button>
-                    <button id="button-3" class="btn btn-primary number" value="3"><h1>3</h1></button>
-                    <button id="button-plus" class="btn btn-danger operator" value="plus"><h1>+</h1></button>
+                    <button id="button-1" class="btn btn-primary number" ></button>
+                    <button id="button-2" class="btn btn-primary number" ></button>
+                    <button id="button-3" class="btn btn-primary number" ></button>
+                    <button id="button-4" class="btn btn-primary number" ></button>
 
-                </div>
-                </div>
-            </div>
-
-            <!-- Result Panel -->
-            <div class="col-lg-6">
-                <div class="card">
-                <h3 class="card-header">Result</h3>
-                <div class="card-body">
-                    <h1 id="first-number"></h1>
-                    <h1 id="operator"></h1>
-                    <h1 id="second-number"></h1>
-                    <hr>
-                    <h1 id="result"></h1>
                 </div>
                 </div>
             </div>
             </div>
         </div>
-        <script src="crystal.js"></script>
+        <script src="assets/javascript/crystal.js"></script>
     </body>
   </html>

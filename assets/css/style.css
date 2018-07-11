@@ -1,0 +1,28 @@
+.container{
+    text-align: center;
+}
+
+#button-1{
+    width: 100px;
+    height: 100px;
+    background: url(ruby.png);
+    background-size: 100px;
+}
+#button-2{
+    width: 100px;
+    height: 100px;
+    background: url(emerald.jpg);
+    background-size: 100px;
+}
+#button-3{
+    width: 100px;
+    height: 100px;
+    background: url(diamond.jpg);
+    background-size: 100px;
+}
+#button-4{
+    width: 100px;
+    height: 100px;
+    background: url(saphire.jpg);
+    background-size: 100px;
+}
