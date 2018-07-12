@@ -20,7 +20,6 @@ var loss = 0;
 var cry1 = Math.floor(Math.random()*12)+1;
 console.log(cry1);
 $("#button-1").val(cry1);
-// $("#button1").value(cry1)
 var cry2 = Math.floor(Math.random()*12)+1;
 console.log(cry2);
 $("#button-2").val(cry2);
@@ -45,12 +44,36 @@ $(".number").on("click", function() {
         $(".win").text("Wins = "+ wins);
         rand = Math.floor(Math.random() * (120-19+1))+19;
         $("#startNumber").text(rand);
+        cry1 = Math.floor(Math.random()*12)+1;
+        console.log(cry1);
+        $("#button-1").val(cry1);
+        cry2 = Math.floor(Math.random()*12)+1;
+        console.log(cry2);
+        $("#button-2").val(cry2);
+        cry3 = Math.floor(Math.random()*12)+1;
+        console.log(cry3);
+        $("#button-3").val(cry3);
+        cry4 = Math.floor(Math.random()*12)+1;
+        console.log(cry4);
+        $("#button-4").val(cry4);
     }else if(rand < 0){
         alert("Loser");
         loss ++;
         $(".losses").text("Losses = "+ loss);
         rand = Math.floor(Math.random() * (120-19+1))+19;
         $("#startNumber").text(rand);
+        cry1 = Math.floor(Math.random()*12)+1;
+        console.log(cry1);
+        $("#button-1").val(cry1);
+        cry2 = Math.floor(Math.random()*12)+1;
+        console.log(cry2);
+        $("#button-2").val(cry2);
+        cry3 = Math.floor(Math.random()*12)+1;
+        console.log(cry3);
+        $("#button-3").val(cry3);
+        cry4 = Math.floor(Math.random()*12)+1;
+        console.log(cry4);
+        $("#button-4").val(cry4);
     }
 });
 
